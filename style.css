@@ -1,0 +1,165 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff0f5;
+  color: #333;
+}
+
+header {
+  background-color: #ff69b4;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+.logo-container {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
+  
+}
+.video-section {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.video-section h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5em;
+  color: #f8c1d9;
+  text-shadow: 1px 1px 3px #e75480;
+  margin-bottom: 1em;
+}
+
+.video-section video {
+  max-width: 90%;
+  border: 4px solid #f8c1d9;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(231, 84, 128, 0.5);
+}
+
+
+.logo-container img {
+  width: 100px;
+  height: auto;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+..zoom-on-hover {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  will-change: transform;
+}
+
+.zoom-on-hover:hover {
+  transform: scale(1.3);
+  box-shadow: 0 8px 20px rgba(231, 84, 128, 0.4);
+  z-index: 2;
+}
+.products-section {
+  padding: 30px;
+  text-align: center;
+}
+
+.products-caption {
+  font-size: 1.8em;
+  font-family: 'Dancing Script', cursive;
+  color: #e75480;
+  margin-bottom: 15px;
+}
+
+.products-table {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 2px solid #f8c1d9;
+  box-shadow: 0 4px 15px rgba(248, 193, 217, 0.4);
+  background-color: #fff0f5;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.products-table thead {
+  background-color: #f8c1d9;
+  color: #fff;
+}
+
+.products-table th,
+.products-table td {
+  padding: 12px 15px;
+  border: 1px solid #fcd4e3;
+  font-family: 'Arial', sans-serif;
+}
+
+.products-table tr:nth-child(even) {
+  background-color: #ffe6f0;
+}
+
+.products-table tr:hover {
+  background-color: #fdd6e6;
+  transition: background 0.3s ease;
+}
+.policy-section {
+  font-family: 'Dancing Script', cursive;
+  color: #e75480;
+  max-width: 900px;
+  margin: auto;
+  padding: 2em;
+  text-align: left;
+}
+
+.policy-title {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.policy-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5em;
+  padding: 0;
+  margin: 0;
+}
+
+.policy-grid li {
+  background: #ffeef2;
+  padding: 1em;
+  border-radius: 10px;
+  list-style: none;
+  font-size: 1.2em;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.policy-grid li strong {
+  display: block;
+  margin-bottom: 0.3em;
+}
+
+
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 2em;
+}
+
+footer {
+  text-align: center;
+  background-color: #ff69b4;
+  color: white;
+  padding: 1em;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}

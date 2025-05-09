@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Booking - Flirty Wink Co</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="logo-container">
+  <img src="images/Flirty_Wink_Logo.png" alt="Flirty Wink Co Logo">
+</div>
+  <header>
+       <h1 style="font-family: 'Dancing Script', cursive; font-size: 3.2em; color:#f8c1d9; text-shadow: 2px 2px 5px #e75480;">
+     Book Your Appointment💕
+</h1>     
+   
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="booking.html">Booking</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="policy.html">Policy</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+   <form style="max-width: 500px; margin: auto; display: flex; flex-direction: column; gap: 15px; font-family: 'Dancing Script', cursive; color: #e75480;">
+      <label for="service" style="font-size: 1.3em;">Select Lash Service:</label>
+    
+      <select id="service" name="service">
+        
+        <option value="classic">Classic Set</option>
+        
+        <option value="hybrid">Hybrid Set</option>
+        <option value="volume">Volume Set</option>
+      </select>
+       
+
+     <form style="max-width: 500px; margin: auto; display: flex; flex-direction: column; gap: 15px; font-family: 'Dancing Script', cursive; color: #e75480;">
+  <label for="date" style="font-size: 1.3em;">Select Your Date:</label>
+  <input type="date" id="date" name="date" required
+    style="padding: 10px; border-radius: 8px; border: 1px solid #e75480; font-size: 1.2em;">
+
+  <label for="time" style="font-size: 1.3em;">Choose a Time:</label>
+  <input type="time" id="time" name="time" required
+    style="padding: 10px; border-radius: 8px; border: 1px solid #e75480; font-size: 1.2em;">
+
+  <button type="submit"
+    style="background-color: #e75480; color: white; border: none; padding: 12px; border-radius: 8px; font-size: 1.4em; cursor: pointer; transition: transform 0.2s, box-shadow 0.2s;"
+    onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 4px 15px rgba(231, 84, 128, 0.4)';"
+    onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+    Book Now 💖
+  </button>
+</form>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Flirty Wink Co</p>
+  </footer>
+</body>
+</html>
